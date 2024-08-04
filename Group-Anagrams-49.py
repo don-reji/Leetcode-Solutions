@@ -31,6 +31,19 @@ class Solution:
             return [strs]
 
         result = defaultdict(list)
+
+        for word in strs:
+            count =[0]*26
+
+            for char in word:
+                count[ord(char)-ord('a')] +=1
+
+            result[tuple(count)].append(word)
+
+        return result.values()
+    # O(mn) time and space
+    
+        # sol 2
         for word in strs:
             result["".join(sorted(word))].append(word)
 
