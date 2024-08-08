@@ -55,7 +55,7 @@ class Solution:
                 result+= nums[s[i]]
             else:
                 result-=nums[s[i]]     
-        result+= nums[s[-1]
+        result+= nums[s[-1]]
         return result
 
     # O(n) time , O(1) space
