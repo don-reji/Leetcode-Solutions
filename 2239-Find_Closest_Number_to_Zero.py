@@ -32,4 +32,4 @@ class Solution:
                 close = max(close, num)
         return close
 
-    # O(n) time and space
+    # O(n) time and O(1) space
