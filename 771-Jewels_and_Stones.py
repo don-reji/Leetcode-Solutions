@@ -37,4 +37,4 @@ def numJewelsInStones(self, jewels: str, stones: str) -> int:
         res+= count.get(j,0)
     return res
 
-# O(n) time and space
+# O(n) time and O(1) space

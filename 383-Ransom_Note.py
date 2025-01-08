@@ -36,4 +36,4 @@ def canConstruct(self, ransomNote: str, magazine: str) -> bool:
 
     return True
 
-    # O(m+n) space and time
+    # O(m+n) time and O(1) space
