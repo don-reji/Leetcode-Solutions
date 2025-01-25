@@ -53,7 +53,7 @@ def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
 
         # get all left element and move left column by 1 row to right
         for i in range( bottom-1, top-1, -1  ):
-            res.append( matrix[i][0] )
+            res.append( matrix[i][l] )
         l+=1
 
     return res
